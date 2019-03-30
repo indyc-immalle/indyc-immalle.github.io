@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="fonts\FontAwsome\all.css">
+  <title>Contact</title>
+  <script src="fonts\FontAwsome\all.js"></script>
+
+  <!-- favicon -->
+  <link rel="icon" href="foto's\favicon\Favicon2.png" type="image/png">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-fixed-top navbar-light bg-primary">
+    <div class="container">
+      <!-- logo -->
+      <div class="navbar-header">
+        <a class="navbar-brand svg" href="bootstrap.html">
+          <object data="foto's\header\ZibaHeader.svg" height="50"></object>
+        </a>
+      </div>
+      <!-- Hamburger Button  -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Tabs -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown ">
+            <a class="nav-link btn-group dropdown-toggle" href="gip.html" role="button" data-toggle="dropdown">
+              Gip
+            </a>
+            <div class="dropdown-menu">
+              <a class="text-huistyle dropdown-item " href="#">IT-Tappa</a>
+              <a class="dropdown-item text-huistyle" href="#">IT-video</a>
+              <a class="dropdown-item text-huistyle" href="#">Webapplicatie</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link btn-group dropdown-toggle" href="stage.html" role="button" data-toggle="dropdown">
+              Stage
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item text-huistyle" href="#">Dagverslagen</a>
+              <a class="dropdown-item text-huistyle" href="#">Huistyle</a>
+              <a class="dropdown-item text-huistyle" href="#">Reportage photo du stage</a>
+              <a class="dropdown-item text-huistyle" href="#">Case study</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+
+      </div>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <header class="CONTACThead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center text-huistyle">
+          <h1 class="display-1 font-weight-bold">Contact Me</h1>
+          <p class="lead mb-0 font-weight-bold">Heeft u vragen? Ik heb antwoorden.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Bekijk deze link https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form voor extra informatie -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 py-5">
+        <p class="lead text-center" id="contactMargin">Wilt u in contact komen? Vul de vakjes
+          hieronder in om een berichtje <br> te sturen en ik ga zo snel mogelijk iets terug sturen!</p>
+
+        <form id="contact-form" method="post" action="contact.php" role="form">
+
+          <div class="messages"></div>
+
+          <div class="controls">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_name">Voornaam</label>
+                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Voornaam *"
+                    required="required" data-error="Voornaam vergeten.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_lastname">Achternaam</label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Achternaam *"
+                    required="required" data-error="Achternaam vergeten.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_email">Email</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Email *"
+                    required="required" data-error="Email vergeten.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message">Bericht</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Uw bericht *" rows="4"
+                  required="required" data-error="Type een bericht."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <input type="submit" class="btn btn-success btn-send" value="Verstuur">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-muted">
+                <strong>*</strong> Deze velden moeten ingevuld zijn.
+            </div>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+
+
+
+  <!-- Footer -->
+
+  <footer class=" bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <h5><a class="text-huistyle" href="gip.html">Gip</a></h5>
+          <ul class="list-unstyled">
+            <li><a class="text-huistyle" href="#">IT-Tappa</a></li>
+            <li><a class="text-huistyle" href="#">IT-Video</a></li>
+            <li><a class="text-huistyle" href="#">Webapplicatie</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5><a class="text-huistyle" href="stage.html">Stage</a></h5>
+          <ul class="list-unstyled">
+            <li><a class="text-huistyle" href="#">Dagverslagen</a></li>
+            <li><a class="text-huistyle" href="#">Huistyle</a></li>
+            <li><a class="text-huistyle" href="#">Case Study</a></li>
+            <li><a class="text-huistyle" href="#">Reportage photo du stage</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 text-center">
+          <ul class="list-unstyled">
+            <li>
+              <h5><a class="text-huistyle" href="contact.html">Contact</a></h5>
+            </li>
+            <li class="Padding-footer">
+              <h5><a class="text-huistyle" href="#">Sign Up</a></h5>
+            </li>
+            <li class="Padding-footer">
+              <h5><a class="text-huistyle" href="#">Login</a></h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="text-huistyle">Made by:</h6>
+              <div class="popup" onclick="myFunction()">Indy Caluwe
+                <span class="popupimage" id="myPopup"><img src="foto's\indy.gif" alt=""></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                  <a href="https://github.com/indyc-immalle" target="_blank">
+                    <i class="fab fa-github-square fa-4x" ></i>
+                  </a>  
+                </li>
+                <li class="list-inline-item ">
+                  <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square fa-4x" ></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://nl.pinterest.com/indycaluw/" target="_blank">
+                    <i class="fab fa-pinterest-square fa-4x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://plus.google.com/u/0/109711938780460421011?tab=kX" target="_blank">
+                    <i class="fab fa-google-plus-square fa-4x"></i>
+                  </a>
+                </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="text-huistyle">graduated at : </h6>
+              <a href="https://www.immalle.be/immalle3/index.php/nl-nl/studieaanbod/3de-graad/3de-graad-it-en-netwerken"
+                target="_blank">
+                <img src="foto's\ImmaLogo.png" alt="Immaculata Logo" height="60">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright">
+      <p>© Copyright 2019. All Rights Reserved. </p>
+    </div>
+  </footer>
+
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap.js"></script>
+
+  <!-- scripts contact -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"
+    integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+  <script src="contact.js"></script>
+
+  <!-- pop up script -->
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
+
+</body>
+
+</html>
