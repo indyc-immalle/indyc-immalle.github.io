@@ -88,6 +88,11 @@ a.svg:after {
    height: 0;
 }
 
+.StagePadding{
+  padding-bottom: 121.6px;
+  padding-top:  121.6px;
+}
+
 /* Dit is de css van de container waar de video in zit. */
 header {
   position: relative;
