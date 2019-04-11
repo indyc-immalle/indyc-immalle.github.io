@@ -93,6 +93,12 @@ a.svg:after {
   padding-top:  121.6px;
 }
 
+.Video{
+  width: 100%;
+  height: auto;
+}
+
+
 /* Dit is de css van de container waar de video in zit. */
 header {
   position: relative;
