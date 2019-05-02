@@ -93,7 +93,7 @@
                 <div class="form-group">
                   <label for="form_name">Voornaam</label>
                   <input id="form_name" type="text" name="name" class="form-control" placeholder="Voornaam *"
-                    required="required" data-error="Voornaam vergeten.">
+                    required data-error="Voornaam vergeten.">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
@@ -101,7 +101,7 @@
                 <div class="form-group">
                   <label for="form_lastname">Achternaam</label>
                   <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Achternaam *"
-                    required="required" data-error="Achternaam vergeten.">
+                    required data-error="Achternaam vergeten.">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
@@ -111,7 +111,7 @@
                 <div class="form-group">
                   <label for="form_email">Email</label>
                   <input id="form_email" type="email" name="email" class="form-control" placeholder="Email *"
-                    required="required" data-error="Email vergeten.">
+                    required data-error="Email vergeten.">
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
@@ -122,12 +122,15 @@
               <div class="form-group">
                 <label for="form_message">Bericht</label>
                 <textarea id="form_message" name="message" class="form-control" placeholder="Uw bericht *" rows="4"
-                  required="required" data-error="Type een bericht."></textarea>
+                  required data-error="Type een bericht."></textarea>
                 <div class="help-block with-errors"></div>
               </div>
             </div>
             <div class="col-md-12">
-              <input type="submit" class="btn btn-success btn-send" value="Verstuur">
+              <!-- voeg nog animatie toe ... vraag dries.
+                 voeg toe aan classe = jello-vertical -->
+              <button type="button" onclick="showmessage()" class="btn btn-warning" id="contactButton">Verstuur</button>
+              <p id="contactMessage"></p>
             </div>
           </div>
           <div class="row">
