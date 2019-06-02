@@ -113,6 +113,13 @@ a.svg:after {
   height: auto;
 }
 
+.Foto{
+  width: auto;
+  height: 350px;
+}
+.GipTaak{
+  width: 70%;
+}
 
 /* Dit is de css van de container waar de video in zit. */
 header {
