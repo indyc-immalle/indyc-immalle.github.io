@@ -6464,6 +6464,7 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  
 }
 
 .carousel.pointer-event {
@@ -6560,7 +6561,6 @@ a.close.disabled {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
